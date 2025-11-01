@@ -25,7 +25,7 @@ if _version_not_supported:
     )
 
 
-class GetCourseStub(object):
+class CourseServiceStub(object):
     """Missing associated documentation comment in .proto file."""
 
     def __init__(self, channel):
@@ -35,13 +35,13 @@ class GetCourseStub(object):
             channel: A grpc.Channel.
         """
         self.GetCourse = channel.unary_unary(
-                '/courseservice.GetCourse/GetCourse',
+                '/courseservice.CourseService/GetCourse',
                 request_serializer=course__service__pb2.GetCourseRequest.SerializeToString,
                 response_deserializer=course__service__pb2.GetCourseResponse.FromString,
                 _registered_method=True)
 
 
-class GetCourseServicer(object):
+class CourseServiceServicer(object):
     """Missing associated documentation comment in .proto file."""
 
     def GetCourse(self, request, context):
@@ -51,7 +51,7 @@ class GetCourseServicer(object):
         raise NotImplementedError('Method not implemented!')
 
 
-def add_GetCourseServicer_to_server(servicer, server):
+def add_CourseServiceServicer_to_server(servicer, server):
     rpc_method_handlers = {
             'GetCourse': grpc.unary_unary_rpc_method_handler(
                     servicer.GetCourse,
@@ -60,13 +60,13 @@ def add_GetCourseServicer_to_server(servicer, server):
             ),
     }
     generic_handler = grpc.method_handlers_generic_handler(
-            'courseservice.GetCourse', rpc_method_handlers)
+            'courseservice.CourseService', rpc_method_handlers)
     server.add_generic_rpc_handlers((generic_handler,))
-    server.add_registered_method_handlers('courseservice.GetCourse', rpc_method_handlers)
+    server.add_registered_method_handlers('courseservice.CourseService', rpc_method_handlers)
 
 
  # This class is part of an EXPERIMENTAL API.
-class GetCourse(object):
+class CourseService(object):
     """Missing associated documentation comment in .proto file."""
 
     @staticmethod
@@ -83,7 +83,7 @@ class GetCourse(object):
         return grpc.experimental.unary_unary(
             request,
             target,
-            '/courseservice.GetCourse/GetCourse',
+            '/courseservice.CourseService/GetCourse',
             course__service__pb2.GetCourseRequest.SerializeToString,
             course__service__pb2.GetCourseResponse.FromString,
             options,
