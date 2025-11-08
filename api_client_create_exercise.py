@@ -48,6 +48,7 @@ create_course_request = CreateCourseRequestDict(
 create_course_response = courses_client.create_course(create_course_request)
 print('Create course data:', create_course_response)
 
+# Создаем задание
 create_exercise_request = CreateExerciseRequest(
     title="Python API client guide",
     courseId=create_course_response['course']['id'],
@@ -57,6 +58,5 @@ create_exercise_request = CreateExerciseRequest(
     description="Python API exercise - 1.1",
     estimatedTime="1 weeks",
 )
-
 create_exercise_response = exercises_client.create_exercise(create_exercise_request)
 print('Create exercise data:', create_exercise_response)
