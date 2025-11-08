@@ -1,6 +1,7 @@
 from typing import TypedDict
 from httpx import Response
 from clients.api_client import APIClient
+from clients.private_http_builder import AuthenticationUserDict, get_private_http_client
 
 
 class GetExercisesQueryDict(TypedDict):
@@ -28,6 +29,21 @@ class UpdateExerciseRequest(TypedDict):
     description: str | None
     estimatedTime: str | None
 
+class Exercise(TypedDict):
+    id: str
+    title: str
+    courseId: str
+    maxScore: int | None
+    minScore: int | None
+    orderIndex: int
+    description: str
+    estimatedTime: str | None
+
+class GetExercisesResponseDict(TypedDict):
+    Items: list[Exercise]
+
+class GetExerciseResponseDict(TypedDict):
+    exercises: Exercise
 
 class ExercisesClient(APIClient):
     """
@@ -92,3 +108,22 @@ class ExercisesClient(APIClient):
         :rtype: httpx.Response
         """
         return self.delete(f"/api/v1/exercises/{exercise_id}")
+
+    def get_exercise(self, exercise_id: str) -> GetExerciseResponseDict:
+        response = self.get_exercise_api(exercise_id)
+        return response.json()
+
+    def get_exercises(self, query: GetExercisesQueryDict) -> GetExercisesResponseDict:
+        response = self.get_exercise_api(query)
+        return response.json()
+
+    def create_exercise(self, request: CreateExerciseRequest) -> GetExerciseResponseDict:
+        response = self.create_exercise_api(request)
+        return response.json()
+
+    def update_exercise(self, exercise_id: str, request: UpdateExerciseRequest) -> GetExerciseResponseDict:
+        response = self.update_exercise_api(exercise_id, request)
+        return response.json()
+
+def get_exercises_client(user: AuthenticationUserDict) -> ExercisesClient:
+    return ExercisesClient(client=get_private_http_client(user))
