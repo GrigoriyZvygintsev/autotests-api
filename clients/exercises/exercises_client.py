@@ -30,6 +30,7 @@ class UpdateExerciseRequest(TypedDict):
     estimatedTime: str | None
 
 class Exercise(TypedDict):
+    """Модель данных для одного упражнения."""
     id: str
     title: str
     courseId: str
@@ -40,9 +41,11 @@ class Exercise(TypedDict):
     estimatedTime: str | None
 
 class GetExercisesResponseDict(TypedDict):
+    """Модель ответа для списка упражнений."""
     Items: list[Exercise]
 
 class GetExerciseResponseDict(TypedDict):
+    """Модель ответа для одного упражнения."""
     exercises: Exercise
 
 class ExercisesClient(APIClient):
@@ -110,20 +113,46 @@ class ExercisesClient(APIClient):
         return self.delete(f"/api/v1/exercises/{exercise_id}")
 
     def get_exercise(self, exercise_id: str) -> GetExerciseResponseDict:
+        """
+        Получает одно упражнение по ID и возвращает его в виде словаря.
+
+        :param exercise_id: Уникальный идентификатор упражнения.
+        :return: Данные упражнения.
+        """
         response = self.get_exercise_api(exercise_id)
         return response.json()
 
     def get_exercises(self, query: GetExercisesQueryDict) -> GetExercisesResponseDict:
-        response = self.get_exercise_api(query)
+        """
+        Получает список упражнений по фильтру и возвращает его в виде словаря.
+
+        :param query: Параметры фильтрации (например, courseId).
+        :return: Список упражнений.
+        """
+        response = self.get_exercises_api(query)
         return response.json()
 
     def create_exercise(self, request: CreateExerciseRequest) -> GetExerciseResponseDict:
+        """
+        Создаёт новое упражнение и возвращает созданный объект.
+
+        :param request: Данные для создания упражнения.
+        :return: Данные созданного упражнения.
+        """
         response = self.create_exercise_api(request)
         return response.json()
 
     def update_exercise(self, exercise_id: str, request: UpdateExerciseRequest) -> GetExerciseResponseDict:
+        """
+        Обновляет существующее упражнение и возвращает обновлённый объект.
+
+        :param exercise_id: ID упражнения для обновления.
+        :param request: Поля и значения для обновления.
+        :return: Обновлённые данные упражнения.
+        """
         response = self.update_exercise_api(exercise_id, request)
         return response.json()
 
 def get_exercises_client(user: AuthenticationUserDict) -> ExercisesClient:
+    """Фабричная функция для создания экземпляра ExercisesClient с аутентификацией."""
     return ExercisesClient(client=get_private_http_client(user))
