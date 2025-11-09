@@ -1,8 +1,8 @@
 from pydantic import BaseModel, EmailStr, Field
 
 
-class UserSchema(BaseModel):
-    """Схема с данными для создания пользователя."""
+class CreateUserRequestSchema(BaseModel):
+    """Схема тела запроса для создания пользователя."""
     email: EmailStr
     password: str
     last_name: str = Field(alias='lastName')
@@ -10,8 +10,8 @@ class UserSchema(BaseModel):
     middle_name: str = Field(alias='middleName')
 
 
-class UserResponseSchema(BaseModel):
-    """Схема для данных пользователя в ответе."""
+class UserSchema(BaseModel):
+    """Схема данных пользователя, возвращаемая в ответе."""
     id: str
     email: EmailStr
     last_name: str = Field(alias='lastName')
@@ -19,11 +19,6 @@ class UserResponseSchema(BaseModel):
     middle_name: str = Field(alias='middleName')
 
 
-class CreateUserRequestSchema(BaseModel):
-    """Схема тела запроса для создания пользователя."""
-    user: UserSchema
-
-
 class CreateUserResponseSchema(BaseModel):
     """Схема тела ответа после создания пользователя."""
-    user: UserResponseSchema
+    user: UserSchema
