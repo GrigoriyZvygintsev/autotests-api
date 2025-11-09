@@ -42,11 +42,11 @@ class Exercise(TypedDict):
 
 class GetExercisesResponseDict(TypedDict):
     """Модель ответа для списка упражнений."""
-    Items: list[Exercise]
+    exercises: list[Exercise]
 
 class GetExerciseResponseDict(TypedDict):
     """Модель ответа для одного упражнения."""
-    exercises: Exercise
+    exercise: Exercise
 
 class ExercisesClient(APIClient):
     """
