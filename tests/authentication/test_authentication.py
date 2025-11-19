@@ -10,15 +10,18 @@ from tools.assertions.authentication import assert_login_response
 from tools.assertions.base import assert_status_code, assert_is_true
 from tools.assertions.schema import validate_json_schema
 
+
+
 @pytest.mark.regression
 @pytest.mark.authentication
-def test_login(function_user: UserFixture, public_users_client: PublicUsersClient, authentication_client: AuthenticationClient):
-    request  = LoginRequestSchema(email=function_user.email, password=function_user.password)
-    response = authentication_client.login_api(request)
-    response_data =  LoginResponseSchema.model_validate_json(response.text)
+class TestAuthentication:
+    def test_login(self, function_user: UserFixture, public_users_client: PublicUsersClient,
+                   authentication_client: AuthenticationClient):
+        request = LoginRequestSchema(email=function_user.email, password=function_user.password)
+        response = authentication_client.login_api(request)
+        response_data = LoginResponseSchema.model_validate_json(response.text)
 
-    assert_status_code(response.status_code, HTTPStatus.OK)
-    assert_login_response(response_data)
+        assert_status_code(response.status_code, HTTPStatus.OK)
+        assert_login_response(response_data)
 
-    validate_json_schema(response.json(), response_data.model_json_schema())
-
+        validate_json_schema(response.json(), response_data.model_json_schema())
