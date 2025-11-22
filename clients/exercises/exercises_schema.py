@@ -68,3 +68,4 @@ class GetExerciseResponseSchema(BaseModel):
     Описание структуры ответа получения одного упражнения.
     """
     exercise: ExerciseSchema
+
