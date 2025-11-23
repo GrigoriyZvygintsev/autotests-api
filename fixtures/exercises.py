@@ -26,7 +26,7 @@ def function_exercise(
         function_course: CourseFixture
 ) -> ExerciseFixture:
     course_id = function_course.response.course.id
-    request = CreateExerciseRequestSchema(course_id = course_id)
+    request = CreateExerciseRequestSchema(course_id=course_id)
     response = exercises_client.create_exercise(request)
     return ExerciseFixture(request=request, response=response)
 
