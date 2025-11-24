@@ -55,6 +55,12 @@ class UpdateExerciseRequestSchema(BaseModel):
     description: str | None = Field(default_factory=fake.text)
     estimated_time: str | None = Field(alias="estimatedTime", default_factory=fake.estimated_time)
 
+class UpdateExerciseResponseSchema(BaseModel):
+    """
+    Описание структуры ответа на обновление упражнения (частичное).
+    """
+    exercise: ExerciseSchema
+
 
 class GetExercisesResponseSchema(BaseModel):
     """
