@@ -81,9 +81,10 @@ class TestExercises:
     def test_get_exercises(
             self,
             exercises_client: ExercisesClient,
-            function_exercise: ExerciseFixture
+            function_exercise: ExerciseFixture,
+            function_course: CourseFixture
     ):
-        course_id = function_exercise.request.course_id
+        course_id = function_course.response.course.id
         expected_exercises = [function_exercise.response]
         for _ in range(2):
             extra_request =CreateExerciseRequestSchema(course_id=course_id)
