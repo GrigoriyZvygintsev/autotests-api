@@ -8,6 +8,7 @@ from clients.exercises.exercises_schema import (
     GetExercisesResponseSchema,
     GetExerciseResponseSchema,
 )
+import allure
 
 class ExercisesClient(APIClient):
     """
@@ -15,7 +16,7 @@ class ExercisesClient(APIClient):
 
     Предоставляет методы для получения, создания, обновления и удаления упражнений.
     """
-
+    @allure.step('Check exercises')
     def get_exercises_api(self, query: GetExercisesQuerySchema) -> Response:
         """
         Получает список упражнений по заданному courseId.
@@ -27,6 +28,7 @@ class ExercisesClient(APIClient):
         """
         return self.get("/api/v1/exercises", params=query.model_dump(by_alias=True, exclude_none=True))
 
+    @allure.step('Get exercises by id {exercise_id}')
     def get_exercise_api(self, exercise_id: str) -> Response:
         """
         Получает упражнение по его идентификатору.
@@ -38,6 +40,7 @@ class ExercisesClient(APIClient):
         """
         return self.get(f"/api/v1/exercises/{exercise_id}")
 
+    @allure.step('Create exercise')
     def create_exercise_api(self, request: CreateExerciseRequestSchema) -> Response:
         """
         Создаёт новое упражнение.
@@ -49,6 +52,7 @@ class ExercisesClient(APIClient):
         """
         return self.post("/api/v1/exercises", json=request.model_dump(by_alias=True))
 
+    @allure.step('Update exercises by id {exercise_id}')
     def update_exercise_api(self, exercise_id: str, request: UpdateExerciseRequestSchema) -> Response:
         """
         Частично обновляет упражнение по его идентификатору.
@@ -65,6 +69,7 @@ class ExercisesClient(APIClient):
             json=request.model_dump(by_alias=True, exclude_none=True),
         )
 
+    @allure.step('Delete exercises by id {exercise_id}')
     def delete_exercise_api(self, exercise_id: str) -> Response:
         """
         Удаляет упражнение по его идентификатору.
@@ -75,6 +80,7 @@ class ExercisesClient(APIClient):
         :rtype: httpx.Response
         """
         return self.delete(f"/api/v1/exercises/{exercise_id}")
+
 
     def get_exercise(self, exercise_id: str) -> GetExerciseResponseSchema:
         """

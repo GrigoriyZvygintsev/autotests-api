@@ -5,7 +5,6 @@ from clients.authentication.authentication_client import get_authentication_clie
 # Импортируем модель LoginRequestSchema
 from clients.authentication.authentication_schema import LoginRequestSchema
 
-
 # Добавили суффикс Schema вместо Dict
 class AuthenticationUserSchema(BaseModel, frozen=True):  # Наследуем от BaseModel вместо TypedDict
     email: str
