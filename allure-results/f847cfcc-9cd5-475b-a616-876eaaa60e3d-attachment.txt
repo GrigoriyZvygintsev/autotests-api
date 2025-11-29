@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDE1OjU5OjQ0LjA4MDg0NiIsInVzZXJfaWQiOiI2NTlmNTFmNy01ZmE1LTRkZmYtYmQyNS00ZjgzY2VkYTBkM2QifQ.oKCDm3ubrRWRkNeZWH2OjWtCrAZ0mGRI-n-psLmEC0Y' \
+  -H 'content-length: 331' \
+  -H 'content-type: application/json' \
+  -d '{"title":"At citizen Mr would player stage everyone wrong.","maxScore":79,"minScore":8,"description":"Treat market hour camera less side. Set throughout open power chance exist clearly least.","estimatedTime":"8 weeks","previewFileId":"f5341905-feb8-4bf5-863d-44933349bf66","createdByUserId":"659f51f7-5fa5-4dff-bd25-4f83ceda0d3d"}'

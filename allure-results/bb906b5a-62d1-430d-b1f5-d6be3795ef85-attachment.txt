@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDE1OjU5OjUxLjU1MDQ1NSIsInVzZXJfaWQiOiJjMjI3ZTM3Ny1mMGUzLTQ5NGYtODRiNS1iMDRhZWU2YzI2MDcifQ.htSmKQybuV4r5lyvHfDZwH9n5NKnDPHSqpx4v26n60E' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Tree investment decision trip way music possible cost.","maxScore":71,"minScore":23,"description":"Center environmental another know opportunity dinner material. Here manager entire marriage news real.","estimatedTime":"10 weeks","previewFileId":"96a50b86-7acf-4067-936e-99a85797addd","createdByUserId":"c227e377-f0e3-494f-84b5-b04aee6c2607"}'

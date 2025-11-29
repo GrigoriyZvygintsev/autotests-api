@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDE1OjU5OjUwLjYxNzIzMSIsInVzZXJfaWQiOiI4OTEzOTY1Yy04NDQ4LTQ0ZDAtYjQyZi1kYjk5NTUzYjA1N2EifQ.TxgMUL45a4lH4BX5M3g65avErAo9Hy8yySGvB-oO5hg' \
+  -H 'content-length: 399' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Card make civil necessary film best forget effect.","maxScore":62,"minScore":15,"description":"But support view government run easy. Thus take also ago understand that finally far.\nTo per two store save leg. Sense produce fall figure even practice.","estimatedTime":"9 weeks","previewFileId":"286fe310-05ee-40da-abef-9a55ea7de1ff","createdByUserId":"8913965c-8448-44d0-b42f-db99553b057a"}'

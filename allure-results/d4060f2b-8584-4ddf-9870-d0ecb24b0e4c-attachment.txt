@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/9fd24fe4-0081-4d2c-a38a-172cdd81076a' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDE1OjU5OjUwLjgxNjU1NCIsInVzZXJfaWQiOiI1YWQ3MTEzNC04YmYzLTRlNDQtYjY4Mi03Y2UxN2QzOTkyZTAifQ.I6Dpwcm-ocZ7IWuNh3HCOMzrrz_zEi3yu6i9fv28EFM' \
+  -H 'content-length: 232' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Young yourself result how energy something.","maxScore":92,"minScore":5,"description":"Agency need range phone. Throughout ask friend perform back. Professional matter case other likely several.","estimatedTime":"7 weeks"}'
