@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDE5OjM5OjI1LjEwMDQ0OCIsInVzZXJfaWQiOiJkNDc4NjZhMC1iZWIxLTQ1YjItOGJlNy1kMjg3Mjg1Y2I1YTAifQ.biK8SauonaRdX8u2zbHIwKrgvKWsojLgmSK0rjejugo' \
+  -H 'content-length: 304' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Debate artist your mention half.","maxScore":58,"minScore":7,"description":"Amount effort performance second writer.\nWalk prove try choose pretty growth.","estimatedTime":"8 weeks","previewFileId":"29ef6582-af42-468f-a90a-a0e9d2648f11","createdByUserId":"d47866a0-beb1-45b2-8be7-d287285cb5a0"}'

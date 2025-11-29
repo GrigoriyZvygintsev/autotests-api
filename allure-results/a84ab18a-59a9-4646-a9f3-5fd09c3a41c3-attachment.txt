@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/0ef22466-0232-427f-85e2-ed2bea603f63' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDE5OjM5OjI0LjM4NzA3OSIsInVzZXJfaWQiOiI2ZWVlNmIzNi05YTA1LTRiMTYtYmM2Yy0yNzk4YzgyZjA0YzkifQ._Zu-gXM1cFvPjNaEM-u5rD4-VC3VlVuYatvwscps85I' \
+  -H 'content-length: 285' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Deep tax far man.","maxScore":82,"minScore":1,"description":"Ask reality hard current. Sister news think feeling.\nQuickly service last open main truth environmental. Career much four card fact blue food. Treat lawyer nice ago single south choose.","estimatedTime":"4 weeks"}'

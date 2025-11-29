@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDE5OjM5OjI0LjIxNTU3MSIsInVzZXJfaWQiOiI2MDRhODkzYi04Mjg2LTQ4NjctODFiYS1mNjAzMDk5YjAxMWQifQ.OCWySG_YKn0-PgIyvK9Fk9ev2NKNFTa4io0X7OrQXcM' \
+  -H 'content-length: 383' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Middle threat smile fly fact.","maxScore":73,"minScore":18,"description":"Result recently analysis under believe why phone. Check from lawyer.\nTake win son. Technology group tree executive poor. Compare season watch capital exactly.","estimatedTime":"7 weeks","previewFileId":"f31bfe11-5b0d-4e13-a0b8-66a4f019fe69","createdByUserId":"604a893b-8286-4867-81ba-f603099b011d"}'

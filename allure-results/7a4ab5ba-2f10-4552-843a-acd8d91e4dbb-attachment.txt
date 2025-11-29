@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDE5OjM5OjI1LjQ3NjA2NiIsInVzZXJfaWQiOiIyODcyM2UzMC02NjlmLTQyMGQtYTM2Yi1hYWFhOGQ0YTU1NGQifQ.OuDUqpdIL47UAO05qFhBMzrBnQPcjLXM3L7mzQPElSQ' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Reduce anything here record.","maxScore":52,"minScore":13,"description":"Outside establish college only decide see fight. Claim loss score blue participant seem apply. Series where short itself.","estimatedTime":"9 weeks","previewFileId":"5cc19877-9b4c-466b-aef1-c304a9c8b201","createdByUserId":"28723e30-669f-420d-a36b-aaaa8d4a554d"}'

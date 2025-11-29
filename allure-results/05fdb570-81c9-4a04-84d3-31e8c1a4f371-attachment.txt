@@ -1,0 +1,17 @@
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+[32mINFO    [0m HTTP_CLIENT:event_hooks.py:38 Got response 422 Unprocessable Entity from http://localhost:8000/api/v1/files
+[32mINFO    [0m BASE_ASSERTIONS:base.py:16 Check that response status code to "422"
+[32mINFO    [0m FILES_ASSERTIONS:files.py:94 Check create file with empty directory response
+[32mINFO    [0m ERRORS_ASSERTIONS:errors.py:38 Check validation error response
+[32mINFO    [0m BASE_ASSERTIONS:base.py:59 Check that length "details" equals to "1"
+[32mINFO    [0m ERRORS_ASSERTIONS:errors.py:17 Check validation error
+[32mINFO    [0m BASE_ASSERTIONS:base.py:33 Check that "type" equal to "string_too_short"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:33 Check that "input" equal to ""
+[32mINFO    [0m BASE_ASSERTIONS:base.py:33 Check that "context" equal to "{'min_length': 1}"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:33 Check that "message" equal to "String should have at least 1 character"
+[32mINFO    [0m BASE_ASSERTIONS:base.py:33 Check that "location" equal to "['body', 'directory']"
+[32mINFO    [0m SCHEMA_ASSERTIONS:schema.py:19 Validate JSON schema
