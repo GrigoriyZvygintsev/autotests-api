@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDE5OjU4OjU3LjU5NTkwOCIsInVzZXJfaWQiOiI4MzgwZDBjMi02NjViLTRjNDktYWMxMi1hMDljNGY3OWZlNWEifQ.9ezvmVuDK49Vq6IgFFgndc5h7j1y5kXor_mSn-W9gT8' \
+  -H 'content-length: 379' \
+  -H 'content-type: application/json' \
+  -d '{"title":"All teach concern woman range build argue out.","maxScore":76,"minScore":6,"description":"There remember baby. Scene under indeed above almost. Education article memory yard.\nOften relate deal forget. Discussion baby in current.","estimatedTime":"9 weeks","previewFileId":"86634295-aa6b-4284-b809-fa702f6a2c39","createdByUserId":"8380d0c2-665b-4c49-ac12-a09c4f79fe5a"}'

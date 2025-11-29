@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDE5OjU4OjU3LjA2NTM2OSIsInVzZXJfaWQiOiIyMjY2MDBmMy02YjVkLTRmODUtYjY5ZS0yOTQ0MDI2NDJjMzkifQ.UXhVt763rkx8-QHRsPuAivEIPOh8nuTvKCSPcV-4-c4' \
+  -H 'content-length: 357' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Stand chance rest occur stuff including.","maxScore":97,"minScore":29,"description":"Second stop safe perhaps traditional rather. Under us least soon act away treat.\nAlong quickly article care middle happy.","estimatedTime":"8 weeks","previewFileId":"4f4925e8-a44f-4a6d-9f31-ba34a5321716","createdByUserId":"226600f3-6b5d-4f85-b69e-294402642c39"}'

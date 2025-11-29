@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDE5OjU4OjU2Ljg5MDAzNSIsInVzZXJfaWQiOiJmMzQ1ZmVlNC04NDkyLTRiNzItYjIyZi1hMGJhY2UyN2I4MjgifQ.UA8RRYwrMaIzIT7bdgD06etRMWosWOmRspGNVnUiz78' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Interest health fast about guess cut discussion.","maxScore":59,"minScore":3,"description":"So prepare listen alone. Certain drop practice budget.\nNews include door minute building happy. Some focus role main floor.","estimatedTime":"8 weeks","previewFileId":"ebe25cd9-ef2d-4b5d-98bc-1aa2075a14e9","createdByUserId":"f345fee4-8492-4b72-b22f-a0bace27b828"}'

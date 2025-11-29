@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/910042fe-4d1b-4795-b461-e9a58a7b0b63' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDE5OjU4OjU4LjIwMDU4NyIsInVzZXJfaWQiOiI2ZWVjYmI3MC0zNDhlLTQzZjMtYTZkMC04NDAzNGE0MDdiZjcifQ.L5G2ny6I_hgNXV_YhCbVfBiVUDGhNkUClv8qj2_yF2Q' \
+  -H 'content-length: 298' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Size company management government left record.","maxScore":58,"minScore":10,"description":"Financial baby either.\nWorry open control for weight meet set. Develop feel alone financial let decade job population.\nWill hard modern.\nAlthough laugh same no part.","estimatedTime":"9 weeks"}'

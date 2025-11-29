@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDE5OjU4OjU1Ljc4NzY2NiIsInVzZXJfaWQiOiJkNmEzYzA4MS1hZGE2LTQyZjUtYTM0ZS04NjRhYWI1ODgyZDcifQ.BSyJKb4EkAs8Imqgh8DRurGM1Y8tTUhYwK2C3z1Z6B0' \
+  -H 'content-length: 422' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Wide question cut line something on executive.","maxScore":53,"minScore":12,"description":"Mention car lead current film own consider item. Store himself drop.\nPossible plant fly minute college character. Born add mean movement let spring over. Set sister edge here from.","estimatedTime":"6 weeks","previewFileId":"a10146d5-70fd-4f6a-b0d6-5aee173e25c0","createdByUserId":"d6a3c081-ada6-42f5-a34e-864aab5882d7"}'
