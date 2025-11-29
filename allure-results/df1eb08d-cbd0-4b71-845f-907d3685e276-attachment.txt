@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDE0OjI3OjE3LjczMDAxMSIsInVzZXJfaWQiOiJiNDg5NTFjOC03ZDZiLTRkZWQtYjU5Zi0xZTIwODk3ZTY2MDcifQ.hGhfv6_7KZwK7RayAsrXct1148URmaU2ULuJ_DutkNM' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Arm imagine and why somebody.","courseId":"b18664b7-678e-4009-98b9-f46dab7f1d48","maxScore":95,"minScore":26,"orderIndex":49,"description":"Movement keep office must present drug girl. Those list nothing computer else. Task cause example local artist treat. Boy able possible color eye dream easy.","estimatedTime":"3 weeks"}'

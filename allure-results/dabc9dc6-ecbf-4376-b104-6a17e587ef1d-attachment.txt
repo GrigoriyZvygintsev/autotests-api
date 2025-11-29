@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/842b2b5e-1b5a-4d02-8c73-4e45a0bff92c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDEzOjQxOjEyLjMxNTQ5MyIsInVzZXJfaWQiOiI1MjczOTZlYS1mZjEyLTQ1ZjQtOWY4NS1lODVlNGEwMTFmMDQifQ.kzOQwPxtkNnQVDgvJW_OcNUAbWUiToWLD_dNOkd1HCw' \
+  -H 'content-length: 255' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Suddenly produce section control.","maxScore":80,"minScore":15,"orderIndex":45,"description":"Believe always system something strategy agent cold. Culture scientist certain real. Few short present cultural growth pay.","estimatedTime":"6 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/10ac357b-c3ec-4113-8191-9084a0af4259' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDEzOjQwOjUwLjk5NDY0NCIsInVzZXJfaWQiOiI5OTZiYjZlZC00NWQzLTRjMTEtYjEzNS01ODcxMmM4ODhiYjMifQ.JWcsQ7FJx9foCoGI2ZKk5L6X7PXlzqkUfyQQOjXRFqE' \
+  -H 'content-length: 223' \
+  -H 'content-type: application/json' \
+  -d '{"title":"It record building.","maxScore":53,"minScore":7,"description":"Partner force fact spend boy back. Daughter action gun dark contain. Also peace member mouth hospital condition music ten.","estimatedTime":"9 weeks"}'

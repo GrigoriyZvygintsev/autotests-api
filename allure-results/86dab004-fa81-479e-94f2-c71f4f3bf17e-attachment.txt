@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDE0OjI3OjI0Ljc5MTY5NyIsInVzZXJfaWQiOiJiOWI5OGNlYS0wOGVkLTQ0MGUtOGVlYS1jY2U4NmU3YzQ1OGMifQ.conPWUmDt2YzmAISa_sk-w1c0ByLf35fsfTsNLtJj-s' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Others nature develop door hit reflect talk she.","maxScore":83,"minScore":18,"description":"Ability yourself purpose people should finally easy whose.\nLeg region outside energy drive. Degree call late idea couple them personal. Course author wait laugh more.","estimatedTime":"2 weeks","previewFileId":"fc9c3562-4329-4971-9aa5-f66d325e4621","createdByUserId":"b9b98cea-08ed-440e-8eea-cce86e7c458c"}'

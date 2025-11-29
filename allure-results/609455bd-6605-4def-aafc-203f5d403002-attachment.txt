@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI4VDE4OjE0OjE2LjcyNzA2OCIsInVzZXJfaWQiOiJmZTQwNzliNS01NDMwLTQ1YzMtOGQzZi00MDhjOWExNmIzZGMifQ.tgviFHWI_q2nPrad-LxlvUp1AxM8vDsjljzq0Rg2zx0' \
+  -H 'content-length: 387' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Board federal quality assume light.","maxScore":51,"minScore":20,"description":"Industry sure happen technology prepare.\nSociety fall arrive note serve happen. When how hit beautiful situation most these kind. Finish exactly begin they.","estimatedTime":"1 weeks","previewFileId":"1602b3fc-0c53-4cea-b6cd-ca41719d8f60","createdByUserId":"fe4079b5-5430-45c3-8d3f-408c9a16b3dc"}'

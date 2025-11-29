@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDE0OjI3OjE3LjczMDAxMSIsInVzZXJfaWQiOiJiNDg5NTFjOC03ZDZiLTRkZWQtYjU5Zi0xZTIwODk3ZTY2MDcifQ.hGhfv6_7KZwK7RayAsrXct1148URmaU2ULuJ_DutkNM' \
+  -H 'content-length: 395' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Responsibility cell begin.","maxScore":82,"minScore":17,"description":"Institution use cup city likely fill. Them reality push leg appear rule. Shake main of perform story answer anyone.\nBehavior herself road wind. Indeed theory skin candidate.","estimatedTime":"2 weeks","previewFileId":"b44ae8d3-04aa-48ca-b091-8b9d51956add","createdByUserId":"b48951c8-7d6b-4ded-b59f-1e20897e6607"}'

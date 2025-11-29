@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDE0OjI3OjEwLjY2ODk1MCIsInVzZXJfaWQiOiJlZDQxYmI4OS03OThmLTRhNzEtOGM5OS1iYTA4Nzk4ODZiYzIifQ.03J4Kl7VX1xOK2qtvPvQhZ7-hc-c5WfEHm-TDHX3P-U' \
+  -H 'content-length: 341' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Himself tell knowledge.","maxScore":66,"minScore":21,"description":"Our seven let body. Three kitchen side market.\nInside tree mission mission soon road example. Share court agree area baby.","estimatedTime":"1 weeks","previewFileId":"b5f0b3c5-b61f-445d-ac37-29b465683b52","createdByUserId":"ed41bb89-798f-4a71-8c99-ba0879886bc2"}'

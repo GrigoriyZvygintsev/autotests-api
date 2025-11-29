@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDEzOjQxOjEyLjMxNTQ5MyIsInVzZXJfaWQiOiI1MjczOTZlYS1mZjEyLTQ1ZjQtOWY4NS1lODVlNGEwMTFmMDQifQ.kzOQwPxtkNnQVDgvJW_OcNUAbWUiToWLD_dNOkd1HCw' \
+  -H 'content-length: 289' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Hundred improve miss much.","courseId":"a7d74689-28f8-4737-bf28-46ca8727bd1d","maxScore":53,"minScore":22,"orderIndex":20,"description":"Beat stage certainly system mission sea. Religious really fast use manager forget dinner. Study other some animal.","estimatedTime":"5 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/9f47c716-bfd5-4fce-adf0-1d3294c8e344' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI4VDE4OjE0OjA5LjY0NzU4NCIsInVzZXJfaWQiOiI5NmRlMzUxOC0yOWVkLTRjZTAtODlkOC0zMDc2ODAwZGJkODMifQ.3UPJvShna0V1wvoIbjt-9HVTrqOooW6jzAxAgp0eKzw' \
+  -H 'content-length: 253' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Unit little than hard true.","maxScore":78,"minScore":4,"description":"Important resource yet beautiful sign hold. Stop might peace support agent five. Author our land energy blue project. Together including middle.","estimatedTime":"7 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTExLTI5VDEzOjQxOjE5LjQwNTgyMSIsInVzZXJfaWQiOiJiN2RmNGI1Ni02NjEwLTRlODgtYjRiMC0zNzM1NTBkMjZlN2IifQ.TmqOihhgxD6eR7lL0DMwxVMPqS4Nk8Bjlw5u68NWdhc' \
+  -H 'content-length: 318' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Indeed idea marriage effort just.","courseId":"691b7ada-870c-49a6-807b-99695c3f0c0f","maxScore":68,"minScore":14,"orderIndex":60,"description":"Speech water evidence wide vote success suddenly. Spring imagine as art. I agent do evidence. Loss notice ground short collection heavy.","estimatedTime":"5 weeks"}'
