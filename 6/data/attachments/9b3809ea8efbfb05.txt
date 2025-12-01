@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAxVDE1OjE4OjUxLjA1ODc0OCIsInVzZXJfaWQiOiJjNzkwNjMyZS0wYmU3LTQ3MjItYTlmMC02NzBhMzZiYTU2ZTUifQ.HvQYZ6KHhhJ0zxNPH2w-r6gnyuwxIRwjuavauACrhPM' \
+  -H 'content-length: 427' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Mrs again open coach push citizen interest.","maxScore":72,"minScore":21,"description":"Game throw century. Choice leg member window mind. Both letter increase score hand despite.\nEvening history family perform. Cold key expert rate boy street able finish. Live grow war baby.","estimatedTime":"7 weeks","previewFileId":"0fc64f96-56ee-4a17-ace9-03b2005969d3","createdByUserId":"c790632e-0be7-4722-a9f0-670a36ba56e5"}'

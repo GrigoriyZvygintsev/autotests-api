@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAxVDE1OjE4OjUyLjQ2MzI0NiIsInVzZXJfaWQiOiI0YTE1N2M2Mi1jOGMxLTQzOGItYWEwNS00Nzg4ZmM2ZWViNTUifQ.0br6vYE1ivYitq7oUhsEBjWpy1dOkU-A4QCWPYFiVfY' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Against region full almost learn stay.","maxScore":82,"minScore":10,"description":"Particularly deal get. Data manage despite within rock election.\nOffer inside resource process measure. And pay south better sit. Use manage book gas.","estimatedTime":"5 weeks","previewFileId":"ec233307-d648-405a-aa70-3c7894be09e1","createdByUserId":"4a157c62-c8c1-438b-aa05-4788fc6eeb55"}'

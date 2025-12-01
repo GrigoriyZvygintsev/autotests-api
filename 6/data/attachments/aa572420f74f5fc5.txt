@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/6a159f32-ad7c-46e7-944b-cf2f62b4d3bd' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAxVDE1OjE4OjUyLjQ2MzI0NiIsInVzZXJfaWQiOiI0YTE1N2M2Mi1jOGMxLTQzOGItYWEwNS00Nzg4ZmM2ZWViNTUifQ.0br6vYE1ivYitq7oUhsEBjWpy1dOkU-A4QCWPYFiVfY' \
+  -H 'content-length: 311' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Century for among drive leave land.","maxScore":85,"minScore":7,"description":"Behavior art suddenly owner consumer house activity. Decade on authority respond industry.\nLeft car south bank development. Media court world shoulder traditional. Nation everybody choose fund.","estimatedTime":"6 weeks"}'

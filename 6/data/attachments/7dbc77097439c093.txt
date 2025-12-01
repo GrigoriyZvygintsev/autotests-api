@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAxVDE1OjE4OjU0Ljg0NzU5NCIsInVzZXJfaWQiOiI1OGI2MmNlMi1mMTE3LTQ4MDMtYTc1My04ZWE1OTU1YzZhMzYifQ.RnfLiogFblHTsZgAmis63SQlYOuvDiQs9z0dQQCE5mk' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Of actually three realize young program floor.","maxScore":94,"minScore":17,"description":"Onto third follow race any. Probably top control share court. Clearly ask what party night only simple.\nWide join decade ten else. Manager commercial five pretty yard.","estimatedTime":"3 weeks","previewFileId":"62987dbb-6442-4519-8a15-60864b2097ea","createdByUserId":"58b62ce2-f117-4803-a753-8ea5955c6a36"}'
