@@ -1,5 +1,5 @@
 # Игнорируем папки с кэшем Python
-__pycache__/
+__pycache__
 
 # Игнорируем папки виртуального окружения
 .venv/
@@ -8,3 +8,7 @@ venv/
 # Файлы IDE (например, PyCharm или VSCode)
 .idea/
 .vscode/
+
+#allure
+allure-results
+allure-report
