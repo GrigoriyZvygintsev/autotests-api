@@ -1,6 +1,7 @@
 from http import HTTPStatus
 
 import pytest
+from _pytest.fixtures import SubRequest
 from allure_commons.types import Severity
 
 from clients.users.private_users_client import PrivateUsersClient
@@ -16,20 +17,6 @@ from tools.assertions.schema import validate_json_schema
 from tools.assertions.users import assert_create_user_response, assert_get_user_response
 from tools.fakers import fake
 import allure
-
-
-
-
-
-@pytest.fixture(params=['url1', 'url2', 'url3'])
-def host(request: SubRequest):
-    return request.param
-
-
-def test_host(host: str):
-    # Используем фикстуру в автотесте, она вернет нам хост в виде строки
-    print(f"Running test on host: {host}")
-
 
 @pytest.mark.users
 @pytest.mark.regression
