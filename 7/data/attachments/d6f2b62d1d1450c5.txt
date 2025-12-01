@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAxVDE1OjMwOjM0LjYyODUwMCIsInVzZXJfaWQiOiIxMTYyZDRlNi01YTE5LTRhYzQtOWM2NC04MzBiMjliNGM5NDkifQ.kcUfdw7ANWFgtkOdB-ZIbKsdFe7yVjUq-RyLyvJbWZ0' \
+  -H 'content-length: 352' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Plan central sister boy style both top.","maxScore":54,"minScore":13,"description":"Media choose recognize huge keep others. Method little last. Need there throughout bad out draw. Could free type late.","estimatedTime":"9 weeks","previewFileId":"22ed691f-65a3-411c-bdd9-254f7ff20dc3","createdByUserId":"1162d4e6-5a19-4ac4-9c64-830b29b4c949"}'

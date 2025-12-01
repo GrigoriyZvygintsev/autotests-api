@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/0c0955f6-c84c-4ff7-9c90-66639129b47d' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAxVDE1OjMwOjMzLjY5NTQ2MCIsInVzZXJfaWQiOiI2ZGRkODQ2OC0wNDdkLTRjMGMtYWJhYS0xYzdiYThmMTE0MjYifQ.5SFtTthrwvP7TChNWyMfwFu0y8wyzf5u6_yDupRm_NE' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Up article happy off week nation.","maxScore":51,"minScore":24,"orderIndex":77,"description":"Give recognize she age street. Last this lot condition base occur. Simple however capital early upon impact sing.\nHold player drop country small should image. Town amount serve rise late maybe.","estimatedTime":"2 weeks"}'

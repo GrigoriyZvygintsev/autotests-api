@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAxVDE1OjMwOjMzLjY5NTQ2MCIsInVzZXJfaWQiOiI2ZGRkODQ2OC0wNDdkLTRjMGMtYWJhYS0xYzdiYThmMTE0MjYifQ.5SFtTthrwvP7TChNWyMfwFu0y8wyzf5u6_yDupRm_NE' \
+  -H 'content-length: 315' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Figure today staff though improve remember.","courseId":"0225fd15-0877-44f8-9363-ac0b744e9322","maxScore":72,"minScore":17,"orderIndex":29,"description":"Several sort our since law close on. Claim point able program. Fast fact that only.\nBudget provide prepare such operation.","estimatedTime":"5 weeks"}'

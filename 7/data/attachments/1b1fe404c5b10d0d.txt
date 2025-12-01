@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAxVDE1OjMwOjM1LjgyNzc1MCIsInVzZXJfaWQiOiJhMWM0NmI2MC0wMWJhLTRiYWEtOTJhYi05Y2M4MDhhZTVmZDAifQ.Bf73-9ggrOftfsSg2aSW9pr9oxTK6OknUtklhAo9bYw' \
+  -H 'content-length: 409' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Ball pressure everything early performance.","maxScore":59,"minScore":16,"description":"Behind guy interesting hour degree. Woman value PM party police reach politics.\nAir amount wind movie special official teacher away. Require do coach onto least land bag.","estimatedTime":"3 weeks","previewFileId":"ef714293-7aab-4b55-9188-4ba6734df175","createdByUserId":"a1c46b60-01ba-4baa-92ab-9cc808ae5fd0"}'

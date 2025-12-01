@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAxVDE1OjMwOjMzLjY5NTQ2MCIsInVzZXJfaWQiOiI2ZGRkODQ2OC0wNDdkLTRjMGMtYWJhYS0xYzdiYThmMTE0MjYifQ.5SFtTthrwvP7TChNWyMfwFu0y8wyzf5u6_yDupRm_NE' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Claim people land hair past among.","maxScore":95,"minScore":28,"description":"Environmental less spend already religious surface. Perform record someone scientist success woman.\nDemocratic soldier our into. Role ready idea need law.","estimatedTime":"4 weeks","previewFileId":"9233ea0f-d63c-445c-860b-2c590eb21ae7","createdByUserId":"6ddd8468-047d-4c0c-abaa-1c7ba8f11426"}'

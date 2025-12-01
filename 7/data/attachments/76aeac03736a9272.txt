@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAxVDE1OjMwOjM0LjkwMjE5NiIsInVzZXJfaWQiOiIyMmFiYjIyYy05YmY3LTQ5NDAtYWY1YS1hZjMwYzU2OGY5ZWEifQ.vVw_Llruo3XfFWDgaQ9B8gDvk6klGaTCoZK5vVof46o' \
+  -H 'content-length: 410' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Strategy population staff carry.","maxScore":60,"minScore":16,"description":"Even country each question strong away tend. Nice skin social ability also practice then.\nScience trial plant kid pay race population. Defense answer administration apply place easy.","estimatedTime":"2 weeks","previewFileId":"b235901f-6de2-4534-8810-44be54f7661b","createdByUserId":"22abb22c-9bf7-4940-af5a-af30c568f9ea"}'

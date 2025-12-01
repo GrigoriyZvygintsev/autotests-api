@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/b64d2ad9-b34a-4400-b208-cc4cdbdc3cee' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAxVDE1OjMwOjMyLjQ5ODM4OCIsInVzZXJfaWQiOiI2YWI2NGUyNC1jY2IzLTRkMTgtYTQ0Zi1iODY3YzQ5ZTcwYTcifQ.i-1Ly67gL3EwDw7PGlP-1ERszW725e_8rdMM5vzSy6U' \
+  -H 'content-length: 252' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Time question consumer perhaps those figure.","maxScore":94,"minScore":13,"description":"Sing stand tax surface military mother letter. Today local police land. Soldier shake media family campaign eight feel early.","estimatedTime":"5 weeks"}'
