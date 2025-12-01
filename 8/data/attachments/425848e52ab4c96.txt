@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAxVDE2OjM0OjMwLjExMzM0MiIsInVzZXJfaWQiOiJlMTlkYTY0YS0xMWNhLTRmZTItYmFlMS0xYzgzMjI2MjFlZGIifQ.skG3GZViAw4qHbtryU91afl_TR-xX4lVPIhkUo_QKHU' \
+  -H 'content-length: 373' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Certainly soon believe mention dinner executive surface.","maxScore":66,"minScore":12,"description":"Whatever top ahead remain peace. Number artist evidence positive down relationship politics. Contain behind attention few.","estimatedTime":"2 weeks","previewFileId":"4199b56f-3760-44b4-86d6-c8edccd318a1","createdByUserId":"e19da64a-11ca-4fe2-bae1-1c8322621edb"}'

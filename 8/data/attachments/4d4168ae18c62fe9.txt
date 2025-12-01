@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/f351dc60-3b40-4a6b-a0c1-624d67b29704' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAxVDE2OjM0OjMxLjU4OTY0MyIsInVzZXJfaWQiOiJlNTNlZjQwMC0yZDI5LTQ3MDctOTgwNS1lMGRjMTc0OTRkNzcifQ.byZe-YSbCtAgKA6GqdyQQXDK9rfDFuYKChTYgfGaTLk' \
+  -H 'content-length: 293' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Community owner body food sister wife.","maxScore":78,"minScore":15,"description":"The these your design sister. Wife Republican ready. Side whatever after walk work.\nNor though since number happen important. Send man green investment wear ability voice.","estimatedTime":"4 weeks"}'

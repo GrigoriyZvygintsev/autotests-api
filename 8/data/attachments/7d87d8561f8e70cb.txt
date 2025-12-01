@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAxVDE2OjM0OjM0LjU4NTY3MSIsInVzZXJfaWQiOiJkZjhjOGJmNC04NTJiLTQ0OWMtOGE2Mi05MjQ5MmYzNTk4NTAifQ.onS0UnB64SK3FhIr8vhuXwkHClBwkksinnsvdz-aBnU' \
+  -H 'content-length: 317' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Cultural member see fly then.","maxScore":69,"minScore":8,"description":"Strategy sister power second employee remember. City traditional police bit. Church tell case.","estimatedTime":"2 weeks","previewFileId":"12f9054d-fa33-4b66-b602-cbf060f37903","createdByUserId":"df8c8bf4-852b-449c-8a62-92492f359850"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAxVDE2OjM0OjMxLjAwNzUxNSIsInVzZXJfaWQiOiIwMmMwOTBjNC04YTFlLTQ4ZjYtYjJjYy0yY2E3ZDk1MDQ5MWYifQ.hzH-zbUzs1ghLHK432_GHnYscWa-rPMR088SsQzKznw' \
+  -H 'content-length: 345' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Senior price all air top father break.","maxScore":57,"minScore":22,"description":"When hundred collection likely. Car measure oil during cup.\nHealth notice man company. Fight out plant discuss.","estimatedTime":"9 weeks","previewFileId":"7070e44c-3653-48fe-94b9-ba616b312203","createdByUserId":"02c090c4-8a1e-48f6-b2cc-2ca7d950491f"}'

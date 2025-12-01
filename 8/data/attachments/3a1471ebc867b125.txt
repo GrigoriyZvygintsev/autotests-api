@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAxVDE2OjM0OjMxLjU4OTY0MyIsInVzZXJfaWQiOiJlNTNlZjQwMC0yZDI5LTQ3MDctOTgwNS1lMGRjMTc0OTRkNzcifQ.byZe-YSbCtAgKA6GqdyQQXDK9rfDFuYKChTYgfGaTLk' \
+  -H 'content-length: 380' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Bit raise ball agency dark.","maxScore":79,"minScore":24,"description":"Bill whatever provide police believe carry reality. Task range lose source draw.\nOnto film character keep. Capital sometimes mention value power state child.","estimatedTime":"2 weeks","previewFileId":"8f05a19b-b5c1-432b-81ec-1d0811300fbd","createdByUserId":"e53ef400-2d29-4707-9805-e0dc17494d77"}'

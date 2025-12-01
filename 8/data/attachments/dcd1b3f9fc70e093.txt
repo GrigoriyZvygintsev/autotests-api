@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAxVDE2OjM0OjMyLjc3NTk0MiIsInVzZXJfaWQiOiIyNWNmMmQ3Yy05NjBhLTQ1ZjAtYWFiYS1jNDBhYjBmMDJlYzcifQ.feq7FWVs8S1p4DDWq1C2m8mjxwYMYe3cHzJaRgytOUg' \
+  -H 'content-length: 271' \
+  -H 'content-type: application/json' \
+  -d '{"title":"National by race.","courseId":"cce191e0-130f-4d56-bb1d-de16c2d7caef","maxScore":76,"minScore":13,"orderIndex":51,"description":"Unit public floor region day city push. Amount hour simply exactly need mission. Conference attorney not.","estimatedTime":"2 weeks"}'
