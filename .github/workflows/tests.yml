@@ -14,17 +14,17 @@ jobs:
 
     steps:
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: '3.13'
 
       - name: Clone test server repository
         run: git clone https://github.com/Nikita-Filonov/qa-automation-engineer-api-course.git
 
-      - name: Install test server dependencies
+      - name: Install test server repository
         run: pip install -r qa-automation-engineer-api-course/requirements.txt
 
       - name: Start a test server
