@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAzVDIwOjA0OjU5Ljc5ODMyOCIsInVzZXJfaWQiOiIwMjk3MmE5ZS01NjZiLTRlNTYtOWZhNS1mNDg3MzQ3NGRhZTgifQ.a-d49wKyEuBJ-VZKIxkdfVQRTtmAEGL4GCE5rhcMP1I' \
+  -H 'content-length: 342' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Conference benefit treatment next.","maxScore":61,"minScore":4,"description":"Research thousand anything player true try. Culture site top national operation work say.\nPerhaps have staff two.","estimatedTime":"9 weeks","previewFileId":"34b69a4f-d4c9-4732-bb58-543ccaa66c62","createdByUserId":"02972a9e-566b-4e56-9fa5-f4873474dae8"}'

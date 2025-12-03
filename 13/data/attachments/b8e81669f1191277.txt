@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAzVDIwOjA1OjAyLjc2NjI2NSIsInVzZXJfaWQiOiI3ZjZhZjA4Ni1lZjQwLTQyNzctYTBhNi05NzVhZDY1MDdiODMifQ.KFT5Yj-N0DgYrpqy5g2v8xFyWOcXuRHN1RJCVtuIshs' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Down her star.","maxScore":67,"minScore":18,"description":"Couple good model American. Identify show ability. Role choice goal.\nSuddenly or agreement method staff then interest kid. Follow buy student natural partner. International work ago receive.","estimatedTime":"9 weeks","previewFileId":"b57b2aea-73f2-4e42-a295-f7fc6fd047ba","createdByUserId":"7f6af086-ef40-4277-a0a6-975ad6507b83"}'

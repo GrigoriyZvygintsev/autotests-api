@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAzVDIwOjA1OjAzLjM5NDIwMCIsInVzZXJfaWQiOiI4Y2MyY2U3Ny03OTJmLTQ3NjQtODc5OC1hMzQwMTFhYjBjODkifQ.U_oMGS2b3GmV9YRLZVUY3R63KvkquLP9K2mwo4sOT60' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Think hope article perform movie feel.","maxScore":54,"minScore":1,"description":"On gun hope turn church stay. Enjoy of matter sort. Subject receive today risk really discover.\nPast raise region third themselves require.\nPush send term decade process.","estimatedTime":"6 weeks","previewFileId":"79abd37e-10ec-4539-bd25-616fab80a8fc","createdByUserId":"8cc2ce77-792f-4764-8798-a34011ab0c89"}'

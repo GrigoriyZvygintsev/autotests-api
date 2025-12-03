@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAzVDIwOjA1OjAzLjk5NTg1MCIsInVzZXJfaWQiOiJmMmIzMWQzMy1hNmIyLTQ5OWYtYmM3YS1kZjIzMWZlNjdhOTcifQ.Zz4APn0lkM-qumMrIeKeImo09FEVq-PnvhksbnUsTsE' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Local court billion you.","maxScore":82,"minScore":7,"description":"Build draw return report seat result trial. Sell foreign whether sport high. Address behavior interview energy everything participant begin. Walk between together practice new us above agreement.","estimatedTime":"10 weeks","previewFileId":"3f221df7-69de-4d34-ba28-0599dad7d73a","createdByUserId":"f2b31d33-a6b2-499f-bc7a-df231fe67a97"}'

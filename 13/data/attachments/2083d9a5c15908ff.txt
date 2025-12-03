@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/edb62213-c172-4282-9058-dde457629400' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAzVDIwOjA1OjAwLjk2NzI2NyIsInVzZXJfaWQiOiI0NDNjNGRmMi1iM2EyLTRiOGItYWRiNi0xZDUzMzVkMTIyOTAifQ.ZYSb0XaZa5A_tdeayJefmSgOHYkqGgQ8IwnxxuND1gs' \
+  -H 'content-length: 273' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Suddenly language race answer behind certain.","maxScore":87,"minScore":21,"description":"War trip human forget believe marriage article. Door ready truth name world.\nAvoid toward option subject. Seat although none live politics cold.","estimatedTime":"2 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAzVDIwOjA1OjAwLjM4MDg4OCIsInVzZXJfaWQiOiIyMzc2MjVmYS1iZjI0LTQ5NzEtODUyOC00MWJlY2ZmNTZhNjIifQ.80P7qhNzpKmPVlLnA3cypffbDVpK3tVjRX6MhEu7OwM' \
+  -H 'content-length: 401' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Type hear coach air open.","maxScore":94,"minScore":24,"description":"Evidence agreement ever. Plant parent win culture ago. Mrs ten during read scientist to.\nReceive nature somebody easy evening compare collection Mrs. Again by beat along determine.","estimatedTime":"3 weeks","previewFileId":"bfb8cea2-32f4-49db-9fe1-a07ea7606a88","createdByUserId":"237625fa-bf24-4971-8528-41becff56a62"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAzVDIwOjA1OjAwLjk2NzI2NyIsInVzZXJfaWQiOiI0NDNjNGRmMi1iM2EyLTRiOGItYWRiNi0xZDUzMzVkMTIyOTAifQ.ZYSb0XaZa5A_tdeayJefmSgOHYkqGgQ8IwnxxuND1gs' \
+  -H 'content-length: 400' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Nothing party speech training foot value.","maxScore":60,"minScore":23,"description":"Sport brother way already inside project. Standard what never find hear training. Kid gas general size product build east. Their on indicate military music news it.","estimatedTime":"7 weeks","previewFileId":"e250c9a3-e83f-4e1e-b2b0-9650b740d2f7","createdByUserId":"443c4df2-b3a2-4b8b-adb6-1d5335d12290"}'

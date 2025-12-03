@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAzVDIwOjA1OjAyLjc2NjI2NSIsInVzZXJfaWQiOiI3ZjZhZjA4Ni1lZjQwLTQyNzctYTBhNi05NzVhZDY1MDdiODMifQ.KFT5Yj-N0DgYrpqy5g2v8xFyWOcXuRHN1RJCVtuIshs' \
+  -H 'content-length: 381' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Call reflect whatever in despite deep help hair.","courseId":"fbc44b89-bfd4-4670-9aa9-6189e4f78779","maxScore":67,"minScore":27,"orderIndex":33,"description":"Its open game always. Why seven card kitchen reveal state.\nTake test instead small treat own against. Effort most employee best meet. Century conference really short participant for.","estimatedTime":"10 weeks"}'

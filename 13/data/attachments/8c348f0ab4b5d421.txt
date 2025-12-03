@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTAzVDIwOjA1OjAxLjU0NzcxNiIsInVzZXJfaWQiOiJmYmVlZDhjZS0zYmUzLTRmMjUtOTRjZC1iZWRhODU1OTkyNmEifQ.AOX12DanCSQfZxBhCU0iAlbuzC83TOCj6wjczYWNFfo' \
+  -H 'content-length: 430' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Grow win teacher appear too collection.","maxScore":90,"minScore":10,"description":"President turn wonder them machine group body. Energy after interview many.\nWill great color job. Everybody would least bar return.\nAmount plan not out. Strong yet face time power thing support.","estimatedTime":"2 weeks","previewFileId":"c74971ae-e2b3-4da7-bef8-fda5f39a46d3","createdByUserId":"fbeed8ce-3be3-4f25-94cd-beda8559926a"}'
