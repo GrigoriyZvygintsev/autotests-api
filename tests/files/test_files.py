@@ -50,7 +50,7 @@ class TestFiles:
     @allure.sub_suite(AllureStory.GET_ENTITY)
     def test_get_file(self, files_client: FilesClient, function_file: FileFixture):
         response = files_client.get_file_api(function_file.response.file.id)
-        response_data =GetFileResponseSchema.model_validate_json(response.text)
+        response_data = GetFileResponseSchema.model_validate_json(response.text)
 
         assert_status_code(response.status_code, HTTPStatus.OK)
         assert_get_file_response(response_data, function_file.response)
