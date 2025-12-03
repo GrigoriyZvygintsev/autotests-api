@@ -131,6 +131,6 @@ class TestFiles:
         get_response = files_client.get_file_api('incorrect-file-id')
         get_response_data = ValidationErrorResponseSchema.model_validate_json(get_response.text)
 
-        assert_status_code(get_response.status_code, HTTPStatus.UNPROCESSABLE_CONTENT)
+        assert_status_code(get_response.status_code, HTTPStatus.UNPROCESSABLE_ENTITY)
         assert_get_file_with_incorrect_file_id_response(get_response_data)
         validate_json_schema(get_response.json(), get_response_data.model_json_schema())
