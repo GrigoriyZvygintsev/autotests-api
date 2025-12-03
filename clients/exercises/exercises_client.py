@@ -9,7 +9,7 @@ from clients.exercises.exercises_schema import (
     GetExerciseResponseSchema,
 )
 import allure
-
+from clients.api_coverage import tracker
 from tools.routes import APIRoutes
 
 
@@ -19,6 +19,8 @@ class ExercisesClient(APIClient):
 
     Предоставляет методы для получения, создания, обновления и удаления упражнений.
     """
+
+    @tracker.track_coverage_httpx(APIRoutes.EXERCISES)
     @allure.step('Check exercises')
     def get_exercises_api(self, query: GetExercisesQuerySchema) -> Response:
         """
@@ -31,6 +33,7 @@ class ExercisesClient(APIClient):
         """
         return self.get(APIRoutes.EXERCISES, params=query.model_dump(by_alias=True, exclude_none=True))
 
+    @tracker.track_coverage_httpx(f"{APIRoutes.EXERCISES}/{{exercise_id}}")
     @allure.step('Get exercises by id {exercise_id}')
     def get_exercise_api(self, exercise_id: str) -> Response:
         """
@@ -44,6 +47,7 @@ class ExercisesClient(APIClient):
         return self.get(f"{APIRoutes.EXERCISES}/{exercise_id}")
 
     @allure.step('Create exercise')
+    @tracker.track_coverage_httpx(APIRoutes.EXERCISES)
     def create_exercise_api(self, request: CreateExerciseRequestSchema) -> Response:
         """
         Создаёт новое упражнение.
@@ -55,6 +59,7 @@ class ExercisesClient(APIClient):
         """
         return self.post(APIRoutes.EXERCISES, json=request.model_dump(by_alias=True))
 
+    @tracker.track_coverage_httpx(f"{APIRoutes.EXERCISES}/{{exercise_id}}")
     @allure.step('Update exercises by id {exercise_id}')
     def update_exercise_api(self, exercise_id: str, request: UpdateExerciseRequestSchema) -> Response:
         """
@@ -72,6 +77,7 @@ class ExercisesClient(APIClient):
             json=request.model_dump(by_alias=True, exclude_none=True),
         )
 
+    @tracker.track_coverage_httpx(f"{APIRoutes.EXERCISES}/{{exercise_id}}")
     @allure.step('Delete exercises by id {exercise_id}')
     def delete_exercise_api(self, exercise_id: str) -> Response:
         """

@@ -14,8 +14,8 @@ class AuthenticationUserSchema(BaseModel, frozen=True):  # Наследуем о
     password: str
 
 
-@lru_cache()
 # Создаем private builder
+@lru_cache()
 def get_private_http_client(user: AuthenticationUserSchema) -> Client:
     """
     Функция создаёт экземпляр httpx.Client с аутентификацией пользователя.
