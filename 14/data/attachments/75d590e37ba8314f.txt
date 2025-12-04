@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA0VDA4OjM3OjQ2Ljc2NjI1MCIsInVzZXJfaWQiOiJlZTcyNmMxNS04N2QzLTQ5NTktODAyNC1iOGQ1NWNjY2NiYjAifQ.qqOTrlIUZscnz_URnq7U7hDZZjbX4mfovBnqC9ycKu8' \
+  -H 'content-length: 368' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Floor hold anything article.","maxScore":80,"minScore":28,"description":"Employee stay bill education music. Major civil trip seven red year.\nProperty exactly down. Education spring gas Congress our. Miss under wrong.","estimatedTime":"2 weeks","previewFileId":"97725ada-1fcd-4491-b79e-4ec4f3ce9269","createdByUserId":"ee726c15-87d3-4959-8024-b8d55ccccbb0"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA0VDA4OjM3OjUwLjU1ODEwMyIsInVzZXJfaWQiOiIzMDY0ZjE2MC1mZDk5LTRlZmQtODkwOC0xOTc3NzY0NDNhYjcifQ.m3oE3nBQgio778rQgDIZT-jTQdPuimUUwP3pFMu3ybk' \
+  -H 'content-length: 414' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Thus manage center talk mouth miss nearly less.","maxScore":88,"minScore":28,"description":"That course rise staff. Artist executive operation training fine table not.\nField theory seven allow power. Much character responsibility tax generation company heavy sea.","estimatedTime":"8 weeks","previewFileId":"c9a0093f-7c3a-447f-81ac-ae73d20e5be3","createdByUserId":"3064f160-fd99-4efd-8908-197776443ab7"}'

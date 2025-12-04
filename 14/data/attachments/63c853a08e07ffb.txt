@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/6ed364fa-f4a3-4a49-9e5f-a9e36f081d2b' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA0VDA4OjM3OjQ4LjE4MTg2NyIsInVzZXJfaWQiOiI3MTA0NWU3MS1iYTg5LTRmZDktOTg4NS0xYjI2MTUwNWM2ZTUifQ.VIuHF9brhHIKRDjZYSulREiSnh337fScDNsFCpsJBbo' \
+  -H 'content-length: 260' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Over prepare cut say lawyer.","maxScore":56,"minScore":14,"description":"Guess project skill remain. Item kind plan loss. Itself learn if memory rather carry. Tax affect wish military.\nLevel provide account heart similar.","estimatedTime":"8 weeks"}'

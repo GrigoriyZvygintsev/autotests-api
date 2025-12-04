@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA0VDA4OjM3OjQ5LjA5OTAyMiIsInVzZXJfaWQiOiJmZWY5MmY2Mi0wNTU5LTRkMWEtOTc2My01MTVmZDQ2MDQ4NTkifQ.RhFYGD6_pUV7cjir_RbV9rp8TNyAqqN1ntxjPXrkCeA' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Art society short officer thousand yard project.","courseId":"eb56ca13-0f8e-4001-b8f7-16bf00ade2af","maxScore":68,"minScore":13,"orderIndex":45,"description":"Half throughout game well moment social skin simple. And focus reality education about detail. Either finish rate.\nBring perform trade race state.","estimatedTime":"9 weeks"}'

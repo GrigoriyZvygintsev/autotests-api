@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA0VDA4OjM3OjQ5LjA5OTAyMiIsInVzZXJfaWQiOiJmZWY5MmY2Mi0wNTU5LTRkMWEtOTc2My01MTVmZDQ2MDQ4NTkifQ.RhFYGD6_pUV7cjir_RbV9rp8TNyAqqN1ntxjPXrkCeA' \
+  -H 'content-length: 384' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Term western our goal half dinner drive.","maxScore":63,"minScore":28,"description":"Thing move west toward bank who.\nPerson than mention school effect large term. Head yes hit operation hope Democrat. Board capital good sell assume.","estimatedTime":"3 weeks","previewFileId":"55db3d49-e04a-40a2-83bf-480d6482224d","createdByUserId":"fef92f62-0559-4d1a-9763-515fd4604859"}'

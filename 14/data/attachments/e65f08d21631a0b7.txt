@@ -1,0 +1,47 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:28 Make GET request to http://localhost:8000/api/v1/exercises?courseId=aa1ce1f3-bc2b-47fd-baf9-615e69688304
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises?courseId=aa1ce1f3-bc2b-47fd-baf9-615e69688304
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code to "200"
+INFO     EXERCISES_ASSERTIONS:exercises.py:115 Check get exercises response
+INFO     BASE_ASSERTIONS:base.py:59 Check that length "exercises" equals to "3"
+INFO     EXERCISES_ASSERTIONS:exercises.py:42 Check exercise
+INFO     BASE_ASSERTIONS:base.py:33 Check that "title" equal to "Employee financial member consumer receive food list."
+INFO     BASE_ASSERTIONS:base.py:33 Check that "course_id" equal to "aa1ce1f3-bc2b-47fd-baf9-615e69688304"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "max_score" equal to "53"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "min_score" equal to "3"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "order_index" equal to "25"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "description" equal to "Decide trip blood here reason movie begin present. Bed fill stop federal nor statement. Again chair red firm no kid.
+Citizen drive security cup."
+INFO     BASE_ASSERTIONS:base.py:33 Check that "estimated_time" equal to "9 weeks"
+INFO     EXERCISES_ASSERTIONS:exercises.py:42 Check exercise
+INFO     BASE_ASSERTIONS:base.py:33 Check that "title" equal to "Protect imagine air."
+INFO     BASE_ASSERTIONS:base.py:33 Check that "course_id" equal to "aa1ce1f3-bc2b-47fd-baf9-615e69688304"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "max_score" equal to "51"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "min_score" equal to "4"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "order_index" equal to "96"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "description" equal to "Conference on wind reach off create war. Statement game center name.
+Very few yet religious myself. Election southern card sit shake."
+INFO     BASE_ASSERTIONS:base.py:33 Check that "estimated_time" equal to "10 weeks"
+INFO     EXERCISES_ASSERTIONS:exercises.py:42 Check exercise
+INFO     BASE_ASSERTIONS:base.py:33 Check that "title" equal to "Low American record suffer threat."
+INFO     BASE_ASSERTIONS:base.py:33 Check that "course_id" equal to "aa1ce1f3-bc2b-47fd-baf9-615e69688304"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "max_score" equal to "73"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "min_score" equal to "23"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "order_index" equal to "98"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "description" equal to "Response group head sort knowledge true. Toward actually north yes air how while. Face hospital rather.
+Church social PM accept. Listen foreign public generation drop."
+INFO     BASE_ASSERTIONS:base.py:33 Check that "estimated_time" equal to "8 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validate JSON schema

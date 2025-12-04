@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA0VDA4OjM3OjUwLjU1ODEwMyIsInVzZXJfaWQiOiIzMDY0ZjE2MC1mZDk5LTRlZmQtODkwOC0xOTc3NzY0NDNhYjcifQ.m3oE3nBQgio778rQgDIZT-jTQdPuimUUwP3pFMu3ybk' \
+  -H 'content-length: 261' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Yeah stock main pay then.","courseId":"fad2fc8e-a80c-4e58-81f3-ea272c9f5a0e","maxScore":73,"minScore":19,"orderIndex":28,"description":"Economic blue enough change seat top wind. Them two guess dinner worry full book else.","estimatedTime":"10 weeks"}'

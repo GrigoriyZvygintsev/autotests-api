@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     SWAGGER_COVERAGE_TRACKER_STORAGE:storage.py:34 Results directory does not exist, creating: coverage-results
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code to "200"
+INFO     COURSES_ASSERTIONS:courses.py:84 Check create course response
+INFO     BASE_ASSERTIONS:base.py:33 Check that "title" equal to "Floor hold anything article."
+INFO     BASE_ASSERTIONS:base.py:33 Check that "max_score" equal to "80"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "min_score" equal to "28"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "description" equal to "Employee stay bill education music. Major civil trip seven red year.
+Property exactly down. Education spring gas Congress our. Miss under wrong."
+INFO     BASE_ASSERTIONS:base.py:33 Check that "estimated_time" equal to "2 weeks"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "preview_file_id" equal to "97725ada-1fcd-4491-b79e-4ec4f3ce9269"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "created_by_user_id" equal to "ee726c15-87d3-4959-8024-b8d55ccccbb0"
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validate JSON schema

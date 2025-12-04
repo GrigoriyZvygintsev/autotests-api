@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA0VDA4OjM3OjQ5LjM3MTUyMyIsInVzZXJfaWQiOiIzZGVkNDdmYS0xNTkxLTQ1MzgtOWIyZi03ZWE0M2IyZDQ0ZmIifQ.5i7T8_ZQuFRRJ9Whjmu_0IZY1RQPVasl_GfpbGFWBtM' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Win task nearly include.","maxScore":59,"minScore":28,"description":"Message thing perform carry back product left. House least sense instead charge able book community.\nShare past crime health herself.\nKnowledge happen board fund when concern industry.","estimatedTime":"1 weeks","previewFileId":"dca82d0a-1703-453d-9222-f7023001dff7","createdByUserId":"3ded47fa-1591-4538-9b2f-7ea43b2d44fb"}'

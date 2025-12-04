@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA0VDA4OjM3OjQ3LjkwODc1NCIsInVzZXJfaWQiOiJmYzdlNDQzYS0xNjJkLTQzODQtYjhkMi03ZDU5OTIyYmZkMjUifQ.wMKXwzxlE6kAG1frXip6ZTXxJHpiJNGNRmgzZgKa82E' \
+  -H 'content-length: 322' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Article involve such beyond.","maxScore":54,"minScore":22,"description":"List police have number as. Say attack seem many. Expect food special community sell wall actually.","estimatedTime":"9 weeks","previewFileId":"ec061206-9604-4ec9-b386-c1fa6315498b","createdByUserId":"fc7e443a-162d-4384-b8d2-7d59922bfd25"}'
