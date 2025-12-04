@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA0VDA4OjUzOjAxLjgxMjgwNyIsInVzZXJfaWQiOiI2NGFhMjU3NC0zNmNjLTQxMmQtYTY1ZS1mNWJlNDc1NGFjMWIifQ.jfFAZpY9y8Yl94mV0guBseWxLf_Y8syi0_j1lJxpjCg' \
+  -H 'content-length: 358' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Kid popular agent down.","maxScore":79,"minScore":20,"description":"This rule public process move week return city.\nThrow candidate money rather animal message modern. Million civil realize despite customer.","estimatedTime":"3 weeks","previewFileId":"a1fd8e26-a990-44d6-bb6d-cdac9ed4b6a7","createdByUserId":"64aa2574-36cc-412d-a65e-f5be4754ac1b"}'

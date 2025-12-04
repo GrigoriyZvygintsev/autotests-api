@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/b3e5dc42-5d82-4a55-8436-77297e5bb1c7' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA0VDA4OjUyOjU5LjExMDIxOSIsInVzZXJfaWQiOiI3MjBlNjgxMC03N2JlLTQwYmEtODhiMi1hNDAxYTk3NDM2M2IifQ.nCXHBOGa2lMyiaokjZ55NMNeW9xqbzjwOMLp0v_fFng' \
+  -H 'content-length: 231' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Owner ago involve chair occur war child.","maxScore":65,"minScore":2,"description":"Themselves deal so want laugh sound make. Program tree always series brother hard. Sort prepare age although.","estimatedTime":"8 weeks"}'

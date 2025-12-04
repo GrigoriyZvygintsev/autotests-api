@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA0VDA4OjUyOjU4LjUyNDcwMiIsInVzZXJfaWQiOiJkMTdmMjJlYy1hYjA1LTQ3MWYtYmI4YS1lNDQzY2Q4MmYwZTkifQ.G7BKVT-_2XE2TcwtdsvAkty1TP6Y-sQvMQTnYuGt_To' \
+  -H 'content-length: 376' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Never rate else about daughter baby piece.","maxScore":50,"minScore":3,"description":"Market discover perform military follow. Beat light population man position scientist this development.\nTrouble decide consider upon level.","estimatedTime":"1 weeks","previewFileId":"deec57ad-2492-44e8-b3dc-04429701468a","createdByUserId":"d17f22ec-ab05-471f-bb8a-e443cd82f0e9"}'

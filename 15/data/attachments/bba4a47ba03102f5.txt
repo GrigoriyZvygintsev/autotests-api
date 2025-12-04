@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/exercises/1c436b9c-cfa8-4519-9815-c3144bb6af8c' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA0VDA4OjUzOjAwLjU4MzgwNSIsInVzZXJfaWQiOiJmYjYxNGJjOS03YjU1LTRmYmEtOWIwNi0zZTJkY2RkZGZlNTYifQ.JNMQm0AUyQ1FoYfUUAp_UYYiqm1nEuWKWkkjL3haSz4' \
+  -H 'content-length: 317' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Professional federal word ready himself.","maxScore":50,"minScore":5,"orderIndex":53,"description":"Put foot raise commercial win. Argue certain once throughout project spring. Rule on feel executive everybody.\nTry must back artist lead dog. Campaign factor mouth campaign into.","estimatedTime":"6 weeks"}'

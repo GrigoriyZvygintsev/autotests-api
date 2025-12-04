@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA0VDA4OjUzOjAwLjU4MzgwNSIsInVzZXJfaWQiOiJmYjYxNGJjOS03YjU1LTRmYmEtOWIwNi0zZTJkY2RkZGZlNTYifQ.JNMQm0AUyQ1FoYfUUAp_UYYiqm1nEuWKWkkjL3haSz4' \
+  -H 'content-length: 408' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Professional age person issue election.","maxScore":95,"minScore":13,"description":"Movement night indicate like star use. Main politics among.\nMillion financial box suffer develop. Sell walk nice ahead build top thing. According story bring similar during.","estimatedTime":"4 weeks","previewFileId":"e74b48ec-ba50-4b96-be61-0273b0b9910c","createdByUserId":"fb614bc9-7b55-4fba-9b06-3e2dcdddfe56"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA0VDA4OjUzOjAwLjg1NjY5MyIsInVzZXJfaWQiOiJmYTYyYzUwYS1lOTU1LTRiMzEtOGJiMS05MmE2ODNhNjAzMzUifQ.cajvTbTYk7kkxjOOHARWL8Np0tqLdz1oSO1OTKJE-Cc' \
+  -H 'content-length: 321' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Up short quite them hospital improve.","maxScore":67,"minScore":19,"description":"Memory rock choice show environment. Important tough evidence. Inside note enough season.","estimatedTime":"5 weeks","previewFileId":"b27c8351-db82-44f3-aec0-219c3acdad94","createdByUserId":"fa62c50a-e955-4b31-8bb1-92a683a60335"}'

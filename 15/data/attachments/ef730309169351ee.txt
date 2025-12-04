@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA0VDA4OjUyOjU5LjY4ODc3NiIsInVzZXJfaWQiOiJjOGNkZGI0Ny0xZTRmLTRhNzktYTBjOS1lM2FkY2UxYTMzNDUifQ.smOZhbqwMdL7WjGCDyFetthI--fAMFJh52NEd1mw68o' \
+  -H 'content-length: 404' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Southern strategy she identify.","maxScore":53,"minScore":27,"description":"Others experience task less old worker. Wonder history help note. Accept whole wear sport change song can.\nPart decide huge your. Decade pretty way field team thought different.","estimatedTime":"2 weeks","previewFileId":"1796d415-d422-4e8d-85e8-5adf1e7d4af3","createdByUserId":"c8cddb47-1e4f-4a79-a0c9-e3adce1a3345"}'

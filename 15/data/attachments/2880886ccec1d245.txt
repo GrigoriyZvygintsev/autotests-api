@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA0VDA4OjUyOjU3LjkwMTkzNSIsInVzZXJfaWQiOiI1YTJmY2NiMS05NjViLTRiMTEtOTJiMC02MTM1ZjliOWNkMzgifQ.Agz7j7Ja7NX7xrOBIPmHm7sRpxe_e0VuR8UjGPPjdGM' \
+  -H 'content-length: 392' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Beyond risk into else until.","maxScore":57,"minScore":25,"description":"More value Mr. Card team control husband.\nLevel like attorney Mrs idea run apply tell. Company change onto understand remain couple prevent. Then seem to policy career.","estimatedTime":"5 weeks","previewFileId":"9ddfc754-6fe0-450b-9eab-a410122bece6","createdByUserId":"5a2fccb1-965b-4b11-92b0-6135f9b9cd38"}'

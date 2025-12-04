@@ -1,0 +1,20 @@
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/users
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/authentication/login
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/files
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/courses
+INFO     HTTP_CLIENT:event_hooks.py:28 Make POST request to http://localhost:8000/api/v1/exercises
+INFO     HTTP_CLIENT:event_hooks.py:38 Got response 200 OK from http://localhost:8000/api/v1/exercises
+INFO     BASE_ASSERTIONS:base.py:16 Check that response status code to "200"
+INFO     EXERCISES_ASSERTIONS:exercises.py:23 Check create exercise response
+INFO     BASE_ASSERTIONS:base.py:33 Check that "title" equal to "Behind care general community guess."
+INFO     BASE_ASSERTIONS:base.py:33 Check that "course_id" equal to "89688129-a74f-43dd-a7f4-1da18c0631fc"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "max_score" equal to "74"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "min_score" equal to "17"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "order_index" equal to "46"
+INFO     BASE_ASSERTIONS:base.py:33 Check that "description" equal to "Member present fire only need also goal discussion. Response current your like beyond."
+INFO     BASE_ASSERTIONS:base.py:33 Check that "estimated_time" equal to "8 weeks"
+INFO     SCHEMA_ASSERTIONS:schema.py:19 Validate JSON schema

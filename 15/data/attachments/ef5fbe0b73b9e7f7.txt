@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA0VDA4OjUzOjAwLjU4MzgwNSIsInVzZXJfaWQiOiJmYjYxNGJjOS03YjU1LTRmYmEtOWIwNi0zZTJkY2RkZGZlNTYifQ.JNMQm0AUyQ1FoYfUUAp_UYYiqm1nEuWKWkkjL3haSz4' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"At forward about along authority.","courseId":"3ae9f46e-d2ff-4654-98d1-7ef329b2299b","maxScore":86,"minScore":6,"orderIndex":9,"description":"Stage class drop provide. Decision find gas positive local both we.\nHere strong leader economy within bad. Work free against follow model theory.","estimatedTime":"1 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA0VDA4OjUzOjAyLjA4NjY4MyIsInVzZXJfaWQiOiI3MTgzNDAzMC01Yjk2LTQ1YjktOWE2Ny04ZjZkNGIyZWVhYjQifQ.GyEzdR6UtiNt0y-E5bRbJS8xynJXQKeI9Dwn5x34-BA' \
+  -H 'content-length: 372' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Opportunity rich report cut scene.","maxScore":69,"minScore":1,"description":"Cold difference low system section. Enjoy list lot.\nYet stock side resource doctor laugh. Course seek a our. Everybody thought society federal.","estimatedTime":"1 weeks","previewFileId":"0d5a5af3-a996-4af7-b9d3-369b823c6152","createdByUserId":"71834030-5b96-45b9-9a67-8f6d4b2eeab4"}'

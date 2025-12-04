@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTA0VDA4OjUzOjAyLjA4NjY4MyIsInVzZXJfaWQiOiI3MTgzNDAzMC01Yjk2LTQ1YjktOWE2Ny04ZjZkNGIyZWVhYjQifQ.GyEzdR6UtiNt0y-E5bRbJS8xynJXQKeI9Dwn5x34-BA' \
+  -H 'content-length: 366' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Method book field reality.","courseId":"927f309d-3199-4d17-9597-55575039abdf","maxScore":55,"minScore":2,"orderIndex":14,"description":"Name thank why lawyer media magazine. Quality give often. Plan thus price least trial those middle.\nStreet I scene cover responsibility effect police. Eye purpose chair understand step then.","estimatedTime":"10 weeks"}'
