@@ -48,3 +48,4 @@ class AuthenticationClient(APIClient):
 
 def get_authentication_client() -> AuthenticationClient:
     return AuthenticationClient(client=get_public_http_client())
+

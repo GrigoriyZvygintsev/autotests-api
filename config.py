@@ -31,6 +31,7 @@ class Settings(BaseSettings):
         allure_results_dir = DirectoryPath("./allure-results")  # Создаем объект пути к папке
         allure_results_dir.mkdir(exist_ok=True)  # Создаем папку allure-results, если она не существует
 
+
         # Передаем allure_results_dir в инициализацию настроек
         return Settings(allure_results_dir=allure_results_dir)
 
