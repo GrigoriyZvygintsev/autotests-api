@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/005a0309-ccad-495a-88cc-398c14f8ab0a' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE1OjU1OjI5LjU5NjIyMyIsInVzZXJfaWQiOiJkYzg2NWNkMi1iZDFlLTQ5NWYtYWFlMi0wMzg5YWFmMmJmOGEifQ.FPdh_5Bok7akE-Fww9xQgYJ0Fpm1JWfnaTsDuP244Qc' \
+  -H 'content-length: 230' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Political article level model.","maxScore":86,"minScore":3,"description":"Hotel cup town public agree. Course car per her throw should.\nKitchen choose state not place. Find detail trip event.","estimatedTime":"5 weeks"}'

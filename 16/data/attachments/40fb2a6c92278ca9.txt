@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE1OjU1OjI5LjMyMzk5NCIsInVzZXJfaWQiOiI4OTc1MWY2MS00N2IwLTQxZmQtOTA1NS0xYTAyOTc2ODNjYzUifQ.1gM6WtzCluvBH8op-2IEJXIypujGI4UEKvubOvY7IAE' \
+  -H 'content-length: 433' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Plan protect piece much administration hair.","maxScore":99,"minScore":15,"description":"Finish fill those laugh industry. Should large power paper nation rest. Although sometimes set off only.\nPeople piece season but truth concern. Door matter become company itself. Adult few bit.","estimatedTime":"8 weeks","previewFileId":"1f856d25-5f55-46aa-a399-af3a2399ccbc","createdByUserId":"89751f61-47b0-41fd-9055-1a0297683cc5"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE1OjU1OjMwLjc3MDcwMyIsInVzZXJfaWQiOiI3OWNkZjdjNy1jN2Q0LTQ2YzctYjdmZC1jNTIxNjlkNjI1MDgifQ.nIyoa1X_P0Y2rgyPtxGTfh3nrNC9XNB_lJPy4QEVtUM' \
+  -H 'content-length: 391' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Test he most boy thought.","maxScore":93,"minScore":17,"description":"Usually capital nothing size simple a yeah. Event job pretty green plan late other.\nMain dark food discuss with people country. Discussion stage analysis southern former.","estimatedTime":"5 weeks","previewFileId":"a678d23c-850a-452a-b6eb-8049b774648d","createdByUserId":"79cdf7c7-c7d4-46c7-b7fd-c52169d62508"}'

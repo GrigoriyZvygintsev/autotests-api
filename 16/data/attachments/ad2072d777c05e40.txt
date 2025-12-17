@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE1OjU1OjMyLjg5Njg5MyIsInVzZXJfaWQiOiI0MzY2NDA3MC1hNWU0LTQ5Y2EtODhjMS01NGFiYjYzODE2OWQifQ.sgVVF0jiRLh57nDHWO7QRHFlZL95po2SACHW26GZgUc' \
+  -H 'content-length: 378' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Policy common dark much computer follow.","maxScore":68,"minScore":3,"description":"South free between write eight thus former. Four success again item strong final.\nYou dog determine speech. Only ready country meet investment.","estimatedTime":"5 weeks","previewFileId":"76580d8e-fb74-4e2b-bfc6-d56405b44c22","createdByUserId":"43664070-a5e4-49ca-88c1-54abb638169d"}'

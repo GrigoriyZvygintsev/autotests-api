@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE1OjU1OjI4LjE3NjA4MCIsInVzZXJfaWQiOiI0ZmU3ZTYwMy1iZDM0LTRlNDAtOTNhMC1kMWUwNDJiNDA3YTgifQ.2QcgH4bZnordBjEQf_e_Vw5hLLaHFCccQ5upFn69E7g' \
+  -H 'content-length: 344' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Open let feeling data education star.","maxScore":80,"minScore":28,"description":"Word him sound. With keep performance list itself she. Respond candidate break travel when power financial fast.","estimatedTime":"1 weeks","previewFileId":"e85d53fc-8a29-48f3-8771-ce0155010104","createdByUserId":"4fe7e603-bd34-4e40-93a0-d1e042b407a8"}'

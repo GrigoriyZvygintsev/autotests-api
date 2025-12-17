@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE1OjU1OjMxLjk1NjY3OCIsInVzZXJfaWQiOiJjZWM5ZGYwMy0yYmViLTRlMmQtOWIyMi1mYTUzZGM0YjJlMTUifQ.StLTWzAAeyGuMkBk4aUXShACCE8nby4em-FgAQNG_uU' \
+  -H 'content-length: 348' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Message series radio book plant stop hospital no.","maxScore":98,"minScore":12,"description":"Century group course pick measure animal manager card. Vote bag measure game everything size commercial.","estimatedTime":"2 weeks","previewFileId":"cb229541-70b7-4d6b-a1fb-357ade91ba8b","createdByUserId":"cec9df03-2beb-4e2d-9b22-fa53dc4b2e15"}'

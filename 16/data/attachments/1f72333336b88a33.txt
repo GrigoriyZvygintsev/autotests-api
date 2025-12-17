@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE3VDE1OjU1OjMwLjQ5ODkxOSIsInVzZXJfaWQiOiJjOTFiMjM1Mi04YWQzLTQ4MmEtYTBjOC1lMWIzNjE2NzY1NzQifQ._8f8AkU1Fw-7qJZq6oz-wKORWRMPPrGEfWbtDeVrOeQ' \
+  -H 'content-length: 417' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Different billion and career sense.","maxScore":79,"minScore":9,"description":"Word for pretty find business different. Scientist long threat after ability wind American computer. Seem quite everybody lead full ground threat first.\nWind explain move actually point.","estimatedTime":"10 weeks","previewFileId":"b9020efe-e2ee-4dac-bcd0-76f74ef62b6e","createdByUserId":"c91b2352-8ad3-482a-a0c8-e1b361676574"}'
