@@ -1,0 +1,11 @@
+curl -X 'PATCH' \
+  'http://localhost:8000/api/v1/courses/cc634b0b-9288-4d31-9dac-c471da94777e' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDE1OjU0OjExLjg4OTI4NSIsInVzZXJfaWQiOiI0NmYzOGE0YS0zODIyLTRlMzctOTlkNy1iMTczMTZlZmExMWEifQ.hgJOcZ0sc7VXO5jVVILpxwMdg5BQOt-bK_i63n4zGQM' \
+  -H 'content-length: 232' \
+  -H 'content-type: application/json' \
+  -d '{"title":"We list local participant factor lot certain over.","maxScore":95,"minScore":12,"description":"Difference half customer. Try drive indeed leave old six. Practice prove marriage there the senior.","estimatedTime":"7 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDE1OjU0OjExLjYxNDU4NiIsInVzZXJfaWQiOiIxNzQ1NTdmOS05YmJlLTRjYTktODAxYy00NjdiNzYwNThkZjQifQ.cnh5yMiWyz4c4MyayHiHjdaF_Uuvb6_iDskqTynYzxk' \
+  -H 'content-length: 405' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Economic recent enter which poor ready change.","maxScore":99,"minScore":1,"description":"Anything real author worry card. Laugh leave address ahead seek fire.\nHowever decision room include read difficult piece decide. Reach less board quality good long.","estimatedTime":"7 weeks","previewFileId":"837a925c-2de7-4c7a-925c-e36316351cb4","createdByUserId":"174557f9-9bbe-4ca9-801c-467b76058df4"}'

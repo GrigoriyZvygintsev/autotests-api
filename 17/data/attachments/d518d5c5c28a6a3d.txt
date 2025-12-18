@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDE1OjU0OjEyLjgwMzk1NyIsInVzZXJfaWQiOiJiZDkwN2MyOC1kYWE2LTQ1MmQtYjk0Ny01MTMzMGEwNWEzMzAifQ.rv-_ST4E4ZOUVwvBAl03JhsTWBImkaVxEhdJ1oXe8B4' \
+  -H 'content-length: 360' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Daughter remember prevent item left factor.","maxScore":79,"minScore":12,"description":"Only weight religious standard. Authority prove ask meeting a. Employee gun however use southern light management through.","estimatedTime":"2 weeks","previewFileId":"182f2428-cf1e-4eff-b53a-283cc00f03fa","createdByUserId":"bd907c28-daa6-452d-b947-51330a05a330"}'

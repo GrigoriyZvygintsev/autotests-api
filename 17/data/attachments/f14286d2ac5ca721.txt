@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDE1OjU0OjEwLjQ3OTA5OSIsInVzZXJfaWQiOiJmYzljNTZlYy1mODEwLTQ5Y2EtYmM5MS1kYWE5MTM2ZTQ0MzQifQ.3HgWaHurj04jHrIr4ynpzRgR_UbJnhumR5MhiOT8H2k' \
+  -H 'content-length: 416' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Long somebody imagine visit beautiful leg nice eye.","maxScore":82,"minScore":27,"description":"Begin ask important no away. Couple law our evening spring best.\nThrow maybe goal activity move other big. Something forward expert. Power husband ever level modern air.","estimatedTime":"3 weeks","previewFileId":"baba9cb1-7ba2-4d17-bb4b-e548c87ea379","createdByUserId":"fc9c56ec-f810-49ca-bc91-daa9136e4434"}'

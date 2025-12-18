@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDE1OjU0OjE1LjEzODc1MyIsInVzZXJfaWQiOiJjZDUyYWU3MC1hY2I4LTQ0NWYtYTU1Ni02NjJhODJlZWY0ZDYifQ.TR9luOiPt51xgrGYlGFVi-ANf1oXWJWeGa36R80mGdY' \
+  -H 'content-length: 335' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Rate girl base yet soldier.","maxScore":94,"minScore":3,"description":"Commercial politics green someone actually can. Idea and music wear. Teacher within care maintain situation offer.","estimatedTime":"3 weeks","previewFileId":"02e58c79-574a-43fd-b047-19a12c10f22d","createdByUserId":"cd52ae70-acb8-445f-a556-662a82eef4d6"}'

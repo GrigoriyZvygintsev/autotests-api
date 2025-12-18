@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDE1OjU0OjEzLjkwMDU3OSIsInVzZXJfaWQiOiI0OTBkZjJiMC01YzBiLTQ2NTYtYTNlOC0zNDIyMWE1NjFhY2QifQ.U5hjM-DydfBuSGoZoRTLwYuNDG3ZgTRrZ1XFhoRh3V8' \
+  -H 'content-length: 377' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Whether his chance environment population share itself.","maxScore":64,"minScore":28,"description":"Scientist occur possible religious. Purpose officer beyond important nature action. Enjoy value often notice science box heavy.","estimatedTime":"8 weeks","previewFileId":"6245589b-d24b-4d1e-b6e0-174137896529","createdByUserId":"490df2b0-5c0b-4656-a3e8-34221a561acd"}'

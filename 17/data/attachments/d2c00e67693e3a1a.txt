@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/exercises' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDE1OjU0OjE1LjEzODc1MyIsInVzZXJfaWQiOiJjZDUyYWU3MC1hY2I4LTQ0NWYtYTU1Ni02NjJhODJlZWY0ZDYifQ.TR9luOiPt51xgrGYlGFVi-ANf1oXWJWeGa36R80mGdY' \
+  -H 'content-length: 326' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Foreign nearly development full form ask guy.","courseId":"11411df8-baf1-4d1f-92d3-0ebbc66edd4c","maxScore":93,"minScore":28,"orderIndex":96,"description":"Style edge computer continue space follow contain. Base individual television professional blue firm. Shoulder idea yard weight for.","estimatedTime":"5 weeks"}'

@@ -1,0 +1,11 @@
+curl -X 'POST' \
+  'http://localhost:8000/api/v1/courses' \
+  -H 'host: localhost:8000' \
+  -H 'accept: */*' \
+  -H 'accept-encoding: gzip, deflate' \
+  -H 'connection: keep-alive' \
+  -H 'user-agent: python-httpx/0.28.1' \
+  -H 'authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHBpcmUiOiIyMDI1LTEyLTE4VDE1OjU0OjE0LjQ4NDQ5NiIsInVzZXJfaWQiOiJjOTQ1ZWMxNS03NzIxLTQ4NDAtOThlNy00YmVkOGRiY2E3YTEifQ.4Cfn5icTyQD8GiIdGQorw_zKxoQywfbwkFvQ3leW_z0' \
+  -H 'content-length: 292' \
+  -H 'content-type: application/json' \
+  -d '{"title":"Better pull development entire.","maxScore":77,"minScore":27,"description":"Fund lawyer hundred cup that draw. Sort who adult decide attorney.","estimatedTime":"4 weeks","previewFileId":"f222b198-01f1-4755-8924-5c67ab56a05c","createdByUserId":"c945ec15-7721-4840-98e7-4bed8dbca7a1"}'
